@@ -1,0 +1,32 @@
+.cast {
+    display: flex;
+    flex-direction: column;
+    border: solid #747bff 1px;
+    width: 150px;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .castList {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .castImage {
+    height: 150px;
+    width: 100px;
+  }
+  
+  .name {
+    margin: 8px;
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .character {
+    margin: 0;
+    font-size: 14px;
+  }
